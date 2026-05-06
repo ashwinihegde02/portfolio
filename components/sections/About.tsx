@@ -9,14 +9,18 @@ import {
   useInView,
   type MotionValue,
 } from 'framer-motion'
-import { Smartphone, Server, Code, Zap } from 'lucide-react'
+import { Layers, Cpu, Bot, GitBranch, Network, HardDrive, ShieldCheck, Terminal } from 'lucide-react'
 import { personalInfo } from '@/data/personal'
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
-  Smartphone,
-  Server,
-  Code,
-  Zap,
+  Layers,
+  Cpu,
+  Bot,
+  GitBranch,
+  Network,
+  HardDrive,
+  ShieldCheck,
+  Terminal,
 }
 
 function Word({

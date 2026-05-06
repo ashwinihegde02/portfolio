@@ -156,7 +156,8 @@ export default function Hero() {
           <motion.div
             animate={{ y: [0, 10, 0] }}
             transition={{ repeat: Infinity, duration: 2 }}
-            className="mt-20"
+            className="mt-20 cursor-pointer"
+            onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
           >
             <ChevronDown className="w-8 h-8 mx-auto text-purple-500" />
           </motion.div>

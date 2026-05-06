@@ -1,35 +1,16 @@
-# Stage 1: Install dependencies
-FROM node:20-alpine AS deps
-RUN apk add --no-cache libc6-compat
+# Stage 1: Build everything (mirrors compile.sh)
+FROM golang:alpine AS build
 WORKDIR /app
-COPY package.json ./
-RUN npm install
-
-# Stage 2: Build the app
-FROM node:20-alpine AS builder
-WORKDIR /app
-COPY --from=deps /app/node_modules ./node_modules
+RUN apk add --no-cache nodejs npm && npm install -g pnpm
 COPY . .
-RUN npm run build
+RUN pnpm install --frozen-lockfile
+RUN pnpm build
+RUN CGO_ENABLED=0 go build -o server .
 
-# Stage 3: Production runner
-FROM node:20-alpine AS runner
+# Stage 2: Minimal runtime
+FROM alpine:3
 WORKDIR /app
-
-ENV NODE_ENV=production
-# Disable telemetry during runtime
-ENV NEXT_TELEMETRY_DISABLED=1
-
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
-
-# Copy the standalone build and static assets
-COPY --from=builder /app/public ./public
-COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
-COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
-
-USER nextjs
-EXPOSE 3000
-ENV PORT=3000
-
-CMD ["node", "server.js"]
+COPY --from=build /app/server .
+EXPOSE 8090
+ENV PORT=8090
+CMD ["./server"]
