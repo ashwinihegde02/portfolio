@@ -222,13 +222,13 @@ For stats and social links, you can use any icon from **lucide-react**, such as:
         "name": "LinkedIn",
         "icon": "Linkedin",
         "url": "https://linkedin.com/in/yourprofile",
-        "color": "hover:text-blue-500"
+        "color": "hover:text-purple-500"
       },
       {
         "name": "GitHub",
         "icon": "Github",
         "url": "https://github.com/yourusername",
-        "color": "hover:text-purple-500"
+        "color": "hover:text-blue-500"
       }
     ]
   }

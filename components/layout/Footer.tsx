@@ -31,7 +31,7 @@ export default function Footer() {
               animate={{ opacity: showScrollTop ? 1 : 0, scale: showScrollTop ? 1 : 0 }}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              className="p-3 bg-pista-600 hover:bg-pista-500 text-white rounded-full shadow-lg hover:shadow-pista-500/50 transition-all fixed bottom-8 right-8 z-50"
+              className="p-3 bg-purple-600 hover:bg-purple-500 text-white rounded-full shadow-lg hover:shadow-purple-500/50 transition-all fixed bottom-8 right-8 z-50"
               aria-label="Scroll to top"
             >
               <ArrowUp className="w-5 h-5" />

@@ -16,7 +16,7 @@ export default function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           className="text-xl font-bold"
         >
-          <span className="text-pista-500">{personal.firstName}</span>
+          <span className="text-purple-500">{personal.firstName}</span>
           <span className="ml-1">{personal.lastName}</span>
         </motion.div>
 
@@ -30,10 +30,10 @@ export default function Navbar() {
               transition={{ delay: i * 0.1 }}
               onMouseEnter={() => setCursorVariant('hovering')}
               onMouseLeave={() => setCursorVariant('default')}
-              className="hover:text-pista-400 transition-colors relative group"
+              className="hover:text-purple-400 transition-colors relative group"
             >
               {item}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-pista-500 to-silver-500 group-hover:w-full transition-all duration-300" />
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-purple-500 to-blue-500 group-hover:w-full transition-all duration-300" />
             </motion.a>
           ))}
         </div>
@@ -54,7 +54,7 @@ export default function Navbar() {
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className="text-gray-400 hover:text-pista-400 transition-colors"
+                className="text-gray-400 hover:text-purple-400 transition-colors"
                 onClick={closeMobileMenu}
               >
                 {item}

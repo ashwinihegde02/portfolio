@@ -1,47 +1,47 @@
 {
   "personal": {
-    "firstName": "Ghanashyam",
-    "lastName": "Bhat",
-    "fullName": "Ghanashyam Mahesh Bhat",
+    "firstName": "Ashwini",
+    "lastName": "Hegde",
+    "fullName": "Ashwini Venkataraman Hegde",
     "title": "Software Engineer",
     "jobTitle": "",
-    "email": "iamgmbhat@gmail.com",
+    "email": "hegdeashwini627@gmail.com",
     "greeting": "Hi, my name is",
     "description": {
-      "intro": "I build digital products using",
-      "main": "modern technologies with real-world experience",
+      "intro": "Leveraging real-world experience, I develop robust digital products using",
+      "main": "",
       "highlightedTech": {
         "primary": "Full stack development",
-        "secondary": "System software engineering"
+        "secondary": "Agentic AI"
       }
     }
   },
   "about": {
     "paragraphs": [
-        "I've always been driven by the challenge of building from the ground up. My career began in the high-energy environments of hackathons and early-stage startups, where I worked alongside founders to shape products from scratch. These experiences instilled in me a product-first mindset: the ability to move fast, take ownership, and build features that solve genuine user needs.",
-        "Currently, at Arista Networks, I've shifted my focus toward the foundations of computing, working on software that operates close to the hardware. In an environment where performance and correctness are non-negotiable, I develop components within complex frameworks, prioritizing test-driven development and long-term maintainability. This role has sharpened my technical precision and my appreciation for clean, scalable system architecture.",
-        "Whether I'm navigating the ambiguity of a new venture or the rigorous engineering standards of a global leader, my goal remains the same: to understand exactly how things work so I can build systems that work better. I thrive on diving into technical challenges that demand both creative problem-solving and a disciplined approach to craftsmanship."
+        "I’ve always been driven by the challenge of building tools that empower people. My journey in software is rooted in a product-first mindset: the belief that code only matters when it solves a genuine problem. Whether it's crafting a seamless user interface or architecting the data flow beneath it, I focus on building features that take the complexity out of the user's hands.",
+        "Currently, at Vyapar, I'm a Frontend Engineer dedicated to the desktop ecosystem. I build robust billing and invoicing software designed for the backbone of the economy—retail and mid-tier shop owners. In this space, software isn't just a utility; it's a lifeline. I develop high-performance desktop components where reliability is non-negotiable, ensuring that every invoice generated and every transaction recorded is backed by a rock-solid local architecture using SQLite.",
+        "Whether I'm optimizing the speed of a desktop application or refining the precision of a financial dashboard, my goal remains the same: to bridge the gap between complex system engineering and intuitive user experience. I thrive on the discipline of modern frontend craftsmanship, ensuring that even the most feature-rich tools feel light, fast, and effortless for the people who rely on them every day."
     ],
     "stats": [
       {
         "icon": "Smartphone",
-        "label": "Full stack development",
-        "sublabel": "Building scalable Go, Node.js, and React applications with integrated Python microservices."
+        "label": "Full Stack Engineering",
+        "sublabel": "Developing robust desktop applications for Vyapar, focusing on seamless billing and invoice management systems."
       },
       {
         "icon": "Server",
-        "label": "Systems & Security",
-        "sublabel": "Specialized in Linux Kernel programming, system software development and AI-driven network threat detection."
+        "label": "Desktop & Local Architecture",
+        "sublabel": "Optimizing local data persistence with SQLite to ensure high-performance offline capabilities for retail software."
       },
       {
         "icon": "Code",
-        "label": "Blockchain & Web3",
-        "sublabel": "Developing decentralized applications with Solidity smart contracts for automated appointments and payments."
+        "label": "Security & Compliance",
+        "sublabel": "Collaborating across cross-functional teams to architect high-security financial products and data-integrity protocols."
       },
       {
         "icon": "Zap",
-        "label": "DevOps & Infrastructure",
-        "sublabel": "Expertise in Docker containerization, Kubernetes orchestration, and robust CI/CD pipeline automation."
+        "label": "Machine Learning",
+        "sublabel": "Engineered advanced image manipulation systems capable of editing and transforming images based on specific reference inputs."
       }
     ]
   },
@@ -52,20 +52,20 @@
   "contact": {
     "heading": "Get In Touch",
     "subheading": "Have a project, idea, or opportunity? Feel free to reach out.",
-    "email": "iamgmbhat@gmail.com",
+    "email": "hegdeashwini627@gmail.com",
     "emailButtonText": "Email Me",
     "socialLinks": [
       {
         "name": "LinkedIn",
         "icon": "Linkedin",
-        "url": "https://www.linkedin.com/in/the-giga-byte/",
-        "color": "hover:text-blue-500"
+        "url": "https://www.linkedin.com/in/ashwinivhegde/",
+        "color": "hover:text-purple-500"
       },
       {
         "name": "GitHub",
         "icon": "Github",
-        "url": "https://github.com/Ghanashyam-Bhat",
-        "color": "hover:text-purple-500"
+        "url": "https://github.com/ashwinihegde02",
+        "color": "hover:text-blue-500"
       }
     ]
   },
@@ -88,17 +88,17 @@
     }
   },
   "metadata": {
-    "title": "Your Name | Your Role",
+    "title": "Ashwini Hegde | Software Engineer",
     "description": "Brief SEO-friendly description about you and your work.",
     "keywords": [
-      "Your Name",
-      "Your Skill",
+      "Ashwini Hegde",
+      "Software Engineer",
       "Developer Portfolio",
-      "Web Developer",
+      "Full Stack Developer",
       "Software Engineer"
     ],
     "openGraph": {
-      "title": "Your Name | Portfolio",
+      "title": "Ashwini Hegde | Software Engineer",
       "description": "Showcasing projects, skills, and experience",
       "type": "website"
     }

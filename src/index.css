@@ -2,22 +2,22 @@
 
 /* ── Custom colour palette ── */
 @theme {
-  --color-pista-50:  #eef8e6;
-  --color-pista-100: #d9f0c6;
-  --color-pista-200: #d6edbe;
-  --color-pista-300: #bcdfa0;
-  --color-pista-400: #9ecf7e;
-  --color-pista-500: #7aba54;
-  --color-pista-600: #5e9a3e;
-  --color-pista-700: #3d6e28;
-  --color-pista-800: #2a4d1b;
+  --color-purple-50:  #f5f3ff;
+  --color-purple-100: #ede9fe;
+  --color-purple-200: #ddd6fe;
+  --color-purple-300: #c4b5fd;
+  --color-purple-400: #a78bfa;
+  --color-purple-500: #8b5cf6;
+  --color-purple-600: #7c3aed;
+  --color-purple-700: #6d28d9;
+  --color-purple-800: #5b21b6;
 
-  --color-silver-200: #dce4eb;
-  --color-silver-300: #c4d0da;
-  --color-silver-400: #a4b5c4;
-  --color-silver-500: #8097ab;
-  --color-silver-600: #607d8f;
-  --color-silver-700: #445a6a;
+  --color-blue-200: #e0e7ff;
+  --color-blue-300: #c7d2fe;
+  --color-blue-400: #a5b4fc;
+  --color-blue-500: #818cf8;
+  --color-blue-600: #6366f1;
+  --color-blue-700: #4f46e5;
 
   --font-outfit: 'Outfit', sans-serif;
   --font-jetbrains: 'JetBrains Mono', monospace;
@@ -25,14 +25,14 @@
 
 /* ── Base ── */
 :root {
-  --bg: #080c09;
-  --fg: #ededed;
+  --bg: #020617;
+  --fg: #ffffff;
 }
 
 html,
 body {
-  background-color: #080c09 !important;
-  color: #ededed;
+  background-color: #020617 !important;
+  color: #ffffff;
   min-height: 100%;
   font-family: 'Outfit', sans-serif;
 }
@@ -44,7 +44,7 @@ body {
 
 /* ── Selection ── */
 ::selection {
-  background-color: rgba(122, 186, 84, 0.25);
+  background-color: rgba(99, 102, 241, 0.3);
 }
 
 /* ── Lenis ── */

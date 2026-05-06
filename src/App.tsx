@@ -15,9 +15,9 @@ export default function App() {
   return (
     <SmoothScrollProvider>
       <CustomCursor />
-      <div className="min-h-screen" style={{ backgroundColor: '#080c09' }}>
+      <div className="min-h-screen" style={{ backgroundColor: '#080a0c' }}>
         <motion.div
-          className="fixed top-0 left-0 right-0 h-[3px] bg-pista-500 origin-left z-50"
+          className="fixed top-0 left-0 right-0 h-[3px] bg-purple-500 origin-left z-50"
           style={{ scaleX }}
         />
         <Navbar />

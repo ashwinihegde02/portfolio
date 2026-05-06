@@ -52,7 +52,7 @@ export default function Hero() {
           className="absolute inset-0"
           style={{
             backgroundImage:
-              'linear-gradient(rgba(122,186,84,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(122,186,84,0.06) 1px, transparent 1px)',
+              'linear-gradient(rgba(59,130,246,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(59,130,246,0.06) 1px, transparent 1px)',
             backgroundSize: '52px 52px',
           }}
         />
@@ -61,7 +61,7 @@ export default function Hero() {
           style={{
             width: 720, height: 720, x: b1x, y: b1y,
             translateX: '-50%', translateY: '-50%',
-            background: 'radial-gradient(circle, rgba(122,186,84,0.18) 0%, transparent 70%)',
+            background: 'radial-gradient(circle, rgba(59,130,246,0.18) 0%, transparent 70%)',
             filter: 'blur(80px)',
           }}
         />
@@ -70,7 +70,7 @@ export default function Hero() {
           style={{
             width: 560, height: 560, x: b2xOff, y: b2yOff,
             translateX: '-50%', translateY: '-50%',
-            background: 'radial-gradient(circle, rgba(128,151,171,0.14) 0%, transparent 70%)',
+            background: 'radial-gradient(circle, rgba(139,92,246,0.14) 0%, transparent 70%)',
             filter: 'blur(100px)',
           }}
         />
@@ -79,7 +79,7 @@ export default function Hero() {
           style={{
             width: 320, height: 320, x: b3xOff, y: b3yOff,
             translateX: '-50%', translateY: '-50%',
-            background: 'radial-gradient(circle, rgba(158,207,126,0.24) 0%, transparent 65%)',
+            background: 'radial-gradient(circle, rgba(96,165,250,0.24) 0%, transparent 65%)',
             filter: 'blur(60px)',
           }}
         />
@@ -97,14 +97,14 @@ export default function Hero() {
             transition={{ delay: 0.15 }}
             className="mb-6 flex justify-center"
           >
-            <span className="text-pista-500 text-sm md:text-base font-mono">
+            <span className="text-purple-500 text-sm md:text-base font-mono">
               {personal.greeting}
             </span>
           </motion.div>
 
           <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-none">
-            <span className="text-pista-500">{personal.firstName}</span>{' '}
-            <span className="bg-gradient-to-r from-silver-400 to-silver-600 bg-clip-text text-transparent">
+            <span className="text-purple-500">{personal.firstName}</span>{' '}
+            <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
               {personal.lastName}
             </span>
           </h1>
@@ -117,11 +117,11 @@ export default function Hero() {
             {personal.description.intro}
           </p>
           <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-12">
-            <span className="text-pista-500 font-semibold">
+            <span className="text-purple-500 font-semibold">
               {personal.description.highlightedTech.primary}
             </span>
             {' & '}
-            <span className="text-silver-400 font-semibold">
+            <span className="text-blue-400 font-semibold">
               {personal.description.highlightedTech.secondary}
             </span>{' '}
             {personal.description.main
@@ -137,7 +137,7 @@ export default function Hero() {
               whileTap={{ scale: 0.95 }}
               onMouseEnter={() => setCursorVariant('hovering')}
               onMouseLeave={() => setCursorVariant('default')}
-              className="px-8 py-4 rounded-lg font-semibold text-white transition-all bg-gradient-to-r from-pista-500 to-silver-500 hover:shadow-lg hover:shadow-pista-500/40"
+              className="px-8 py-4 rounded-lg font-semibold text-white transition-all bg-gradient-to-r from-purple-500 to-blue-500 hover:shadow-lg hover:shadow-purple-500/40"
             >
               {cta.primary.text}
             </motion.a>
@@ -147,7 +147,7 @@ export default function Hero() {
               whileTap={{ scale: 0.95 }}
               onMouseEnter={() => setCursorVariant('hovering')}
               onMouseLeave={() => setCursorVariant('default')}
-              className="px-8 py-4 rounded-lg font-semibold transition-all border border-pista-500 text-pista-500 hover:bg-pista-500/10"
+              className="px-8 py-4 rounded-lg font-semibold transition-all border border-purple-500 text-purple-500 hover:bg-purple-500/10"
             >
               {cta.secondary.text}
             </motion.a>
@@ -158,7 +158,7 @@ export default function Hero() {
             transition={{ repeat: Infinity, duration: 2 }}
             className="mt-20"
           >
-            <ChevronDown className="w-8 h-8 mx-auto text-pista-500" />
+            <ChevronDown className="w-8 h-8 mx-auto text-purple-500" />
           </motion.div>
         </motion.div>
       </div>

@@ -42,7 +42,7 @@ export const projectsData: Project[] = [
     liveUrl: "",
     githubUrl: "https://github.com/2020-HelloWorld/pinakatech-event-management",
     tags: ["Go", "React", "Python", "JWT", "PostgreSQL"],
-    gradient: "from-cyan-500 to-blue-500"
+    gradient: "from-cyan-500 to-purple-500"
   },
 
   {

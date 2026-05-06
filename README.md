@@ -1,4 +1,4 @@
-# Ghanashyam Bhat — Portfolio
+# Ashwini Hegde — Portfolio
 
 Personal portfolio site built with Next.js, Tailwind CSS v4, and Framer Motion. All content is driven by two data files — no component editing needed for personal updates.
 
@@ -149,8 +149,8 @@ The palette is defined in `app/globals.css` under `@theme`:
 
 ```css
 @theme {
-  --color-pista-500: #7aba54;   /* primary green accent */
-  --color-silver-500: #8097ab;  /* secondary blue-grey accent */
+  --color-purple-500: #7aba54;   /* primary green accent */
+  --color-blue-500: #8097ab;  /* secondary purple-grey accent */
 }
 ```
 

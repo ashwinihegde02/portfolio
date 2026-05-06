@@ -20,7 +20,7 @@ export default function Projects() {
         >
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-center">
             <span>{projects.heading.split(' ').slice(0, -1).join(' ')}{' '}</span>
-            <span className="bg-gradient-to-r from-pista-500 to-silver-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
               {projects.heading.split(' ').slice(-1)[0]}
             </span>
           </h2>
@@ -45,7 +45,7 @@ export default function Projects() {
                   onMouseEnter={() => setCursorVariant('default')}
                   onMouseLeave={() => setCursorVariant('default')}
                   onClick={() => window.open(href, '_blank', 'noopener,noreferrer')}
-                  className="group relative bg-white/5 rounded-2xl overflow-hidden border border-white/10 hover:border-pista-500/50 hover:shadow-xl hover:shadow-pista-500/15 transition-all duration-300"
+                  className="group relative bg-white/5 rounded-2xl overflow-hidden border border-white/10 hover:border-purple-500/50 hover:shadow-xl hover:shadow-purple-500/15 transition-all duration-300"
                 >
                   <div className="relative aspect-[4/3] overflow-hidden bg-slate-900">
                     <img
@@ -69,7 +69,7 @@ export default function Projects() {
                   </div>
 
                   <div className="p-6">
-                    <h3 className="text-xl font-bold mb-3 line-clamp-2 group-hover:text-pista-500 transition-colors">
+                    <h3 className="text-xl font-bold mb-3 line-clamp-2 group-hover:text-purple-500 transition-colors">
                       {project.title}
                     </h3>
 
@@ -97,7 +97,7 @@ export default function Projects() {
                         }}
                         onMouseEnter={(e) => { e.stopPropagation(); setCursorVariant('default') }}
                         onMouseLeave={(e) => { e.stopPropagation(); setCursorVariant('default') }}
-                        className="mt-3 text-sm font-medium text-pista-500 hover:text-pista-600 transition"
+                        className="mt-3 text-sm font-medium text-purple-500 hover:text-purple-600 transition"
                       >
                         {isExpanded ? 'Show less' : 'Read more'}
                       </button>
@@ -107,7 +107,7 @@ export default function Projects() {
                       {project.tags.slice(0, 4).map((tag, j) => (
                         <span
                           key={`${project.id}-tag-${j}`}
-                          className="px-3 py-1 text-xs font-medium bg-pista-500/10 text-pista-400 rounded-full border border-pista-500/20"
+                          className="px-3 py-1 text-xs font-medium bg-purple-500/10 text-purple-400 rounded-full border border-purple-500/20"
                         >
                           {tag}
                         </span>

@@ -93,11 +93,11 @@ function TiltCard({
             onMouseMove={onMove}
             onMouseLeave={onLeave}
             style={{ rotateX: sX, rotateY: sY }}
-            className="relative overflow-hidden p-6 bg-white/5 rounded-xl border border-white/10 shadow-none hover:border-pista-500/40 transition-colors duration-300"
+            className="relative overflow-hidden p-6 bg-white/5 rounded-xl border border-white/10 shadow-none hover:border-purple-500/40 transition-colors duration-300"
           >
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
               <motion.div
-                className="w-44 h-44 rounded-full bg-pista-400/12 blur-2xl"
+                className="w-44 h-44 rounded-full bg-purple-400/12 blur-2xl"
                 style={{ x: sheenX, y: sheenY }}
               />
             </div>
@@ -153,7 +153,7 @@ export default function About() {
           className="text-4xl md:text-6xl font-bold mb-20 text-center"
         >
           About{' '}
-          <span className="text-pista-500">Me</span>
+          <span className="text-purple-500">Me</span>
         </motion.h2>
 
         <div className="grid md:grid-cols-2 gap-16 items-start">
@@ -186,7 +186,7 @@ export default function About() {
                   floatDuration={3.5 + i * 0.5}
                   floatAmount={6 + (i % 2) * 3}
                 >
-                  {Icon && <Icon className="w-8 h-8 text-pista-500 mb-3" />}
+                  {Icon && <Icon className="w-8 h-8 text-purple-500 mb-3" />}
                   <h3 className="font-semibold text-gray-100 mb-1 text-sm leading-snug">
                     {stat.label}
                   </h3>
