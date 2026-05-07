@@ -54,7 +54,7 @@ export const projectsData: Project[] = [
       "Achieved superior accuracy in link prediction and entity resolution compared to traditional RotatE and TransE embedding models.",
       "Evaluated performance using Mean Reciprocal Rank (MRR) and Gini Index to ensure high-fidelity data distribution and structural integrity."
     ],
-    image: "/images/knowledge-graph-research.png",
+    image: "/images/knowledge-graph.png",
     imageAlt: "Knowledge Graph Augmentation Research Architecture",
     liveUrl: "https://ieeexplore.ieee.org/document/10910552",
     githubUrl: "https://github.com/ashwinihegde02/dkg-rag",
